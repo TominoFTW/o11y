@@ -8,12 +8,12 @@
 
 <!-- Before you submit the PR for review, please go through this checklist. -->
 
-- [ ] **Jira Ticket:** The corresponding Jira ticket is linked in the description above, in the name of the PR and/or commit.
-- [ ] **SOP / Runbook:** Any required SOP has been created or updated as needed. If it has direct connection to the dashboard or alert - It should be included within the dashboard or alert's runbook label respectively. 
+- [ ] **Jira Ticket:** If a corresponding Jira ticket exists, it is linked in the description above, in the PR name, and/or in the commit message.
 - [ ] **Alert Tests:** New or modified alerts include tests to ensure they function correctly.
-- [ ] **Dashboards addition:** New dashboards or significant changes to them should include the link or a screen shot for validation purposes of the added content.
-- [ ] **Contribution Guide:** This submission follows the guidelines in our [`README.md`](https://github.com/redhat-appstudio/o11y/blob/main/README.md) which contains addition information and examples.
-- [ ] **Pipeline finished successfully**
+- [ ] **SOP / Runbook:** Any required SOP has been created or updated as needed. If it has direct connection to the dashboard or alert - It should be included within the dashboard or alert's runbook label respectively. 
+- [ ] **Dashboards Addition:** New dashboards or significant changes to them should have a link to the [staging instance](https://grafana.stage.devshift.net/dashboards) for validation purposes.
+- [ ] **Contribution Guides:** This submission follows the guidelines in our [`CONTRIBUTING.md`](https://github.com/redhat-appstudio/o11y/blob/main/CONTRIBUTING.md) - specifically about the commit conventions and PR instructions - together with our [`README.md`](https://github.com/redhat-appstudio/o11y/blob/main/README.md) which explains contents of this repository with useful examples for contribution.
+- [ ] **Pipeline Finished Successfully**
 
 ---
 
@@ -25,4 +25,4 @@
 
 ### Review
 
-Once your PR is ready please let us know it the [#forum-konflux-o11y](https://redhat.enterprise.slack.com/archives/C04FDFTF8EB) slack channel. Tag `@konflux-o11y-ic` for assistance.
+Once your PR is ready please let us know in the [#forum-konflux-o11y](https://redhat.enterprise.slack.com/archives/C04FDFTF8EB) slack channel. Tag `@konflux-o11y-ic` for assistance.
